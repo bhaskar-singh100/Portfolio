@@ -1,0 +1,52 @@
+.navbar{
+    display: inline;
+    margin-left: 550px;
+    width: 400px;
+    text-align: right;
+    height: 15px;
+}
+a{
+    text-decoration: none;
+    margin-left: 70px;
+    margin-right: 10px;
+    font-size: large;
+}
+#head{
+    display: inline-block;
+}
+.introduction{
+    height:650px;
+    width: 1460px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+body{
+    background-color: aqua;
+}
+.intro{
+    display: inline-block;
+    height: 200px;
+    width: 500px;
+    
+    margin: 20px 100px 200px 100px;
+    padding-top: 200px;
+}
+#hello{
+    font-size: xx-large;
+}
+#name{
+    font-size: 50px;
+    text-decoration: solid;
+    font-weight: 900;
+}
+.div1{
+    display: inline-block;
+    margin: 100px 200px 200px 20px;
+    
+}
+img{
+    display: inline-block;
+    border-radius: 75% ;
+}

@@ -1,0 +1,25 @@
+.navbar{
+    display: inline;
+    margin-left: 550px;
+    width: 400px;
+    text-align: right;
+    height: 15px;
+}
+a{
+    text-decoration: none;
+    margin-left: 70px;
+    margin-right: 10px;
+    font-size: large;
+}
+#head{
+    display: inline-block;
+}
+body{
+    background-color: aqua;
+}
+.contact{
+    font-size: large;
+}
+.certificate{
+    font-size: large;
+}
