@@ -13,11 +13,11 @@ a{
 }
 #head{
     display: inline-block;
+    color: rgb(149, 42, 42);
 }
 .introduction{
     height:650px;
     width: 1460px;
-    
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -29,8 +29,7 @@ body{
     display: inline-block;
     height: 200px;
     width: 500px;
-    
-    margin: 20px 100px 200px 100px;
+    margin: 20px 100px 200px 300px;
     padding-top: 200px;
 }
 #hello{
@@ -41,12 +40,36 @@ body{
     text-decoration: solid;
     font-weight: 900;
 }
-.div1{
+.div2{
     display: inline-block;
-    margin: 100px 200px 200px 20px;
+    margin: 100px 200px 50px 20px;
+    position: relative;
+    bottom: 100px;
+    height: 500px;
     
 }
+
 img{
     display: inline-block;
-    border-radius: 75% ;
+    transition: all 1s ease-in;
+    animation-name: animate;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
 }
+@keyframes animate{
+    from {scale: 0.8;}
+    to {scale:1.1;}
+}
+img:hover{
+    transform: scale(1.2);
+    
+}
+hello:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+a:hover{
+    color: rgb(255, 14, 14);
+}
+

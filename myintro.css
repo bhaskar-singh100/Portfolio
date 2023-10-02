@@ -13,6 +13,7 @@ a{
 }
 #head{
     display: inline-block;
+    color: rgb(149, 42, 42);
 }
 body{
     background-color: aqua;
@@ -21,5 +22,24 @@ body{
     font-size: large;
 }
 .certificate{
+    font-size: large;
+}
+a:hover{
+    color: rgb(255, 14, 14);
+}
+#insta{
+    color: #d338a4;
+    margin-left: 40px;
+}
+#linkedin{
+    color: #313cd5;
+    margin-left: 40px;
+}
+#git{
+    color: #38a2d3;
+    margin-left: 40px;
+}
+.mail{
+    display: inline-block;
     font-size: large;
 }
